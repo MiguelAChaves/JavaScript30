@@ -4,7 +4,7 @@
 This application simulates the interaction of a musical drum kit :notes: through the keyboard.
 
 ![Drum Kit](https://res.cloudinary.com/saaec/image/upload/v1607969343/index_xbzymq.jpg)
-___
+
 ## Functionality
 Key List
 * A - :clap: - clap
@@ -15,7 +15,7 @@ Key List
 * J - :cd: - ride
 * K - :shoe:  - tom
 * L - :bell: - tink
-___
+
 ## Notes
 * Holding key bug
 
@@ -41,12 +41,11 @@ ___
     e.target.classList.remove('playing');
     ```
     'e' is the object that represents the event, and one of its attributes is the target, which is the element that received the event. 'this' is complicated, what this represents changes depending on where it is used, in this case it is the **same**.
-___
+
 ## Learn more
 * [HTML data-* Attribute](https://www.w3schools.com/tags/att_data-.asp) from W3 School
 * [Classlist element property](https://developer.mozilla.org/es/docs/Web/API/Element/classList) from MDN web docs *Mozilla*
 
-___
 ## Credits
 Forked from Wes Bos ([wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)) repository.
 > Reviewed and recoded by Miguel Angel Chaves :shipit: (*@miguelachaves*)
