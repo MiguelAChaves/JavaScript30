@@ -8,7 +8,7 @@ This application simulates a ordinary clock with hands.
 ## Notes
 * Hand bug
 
-    A small problem presented by the original code is that when a second, minute or hour hand matches 0, in turns into a unexpected behavior.
+    A small problem presented by the original code is that when a second, minute or hour hand matches 0, it turns into a unexpected behavior.
 
     From a Youtube user (*Quetin MCKay*), said one way to fix this bug: when seconds is 0, we need to remove the transition property, otherwise set it to normal (0.5s).
 
