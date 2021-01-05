@@ -1,33 +1,15 @@
 # 05 - Flex Panel Gallery
 ## Introduction
-This application modifies spacing, blur and border color of a :framed_picture:
+This application shows a series of images and beautiful phrases :).
 
-![Drum Kit](https://res.cloudinary.com/saaec/image/upload/v1609788569/CSS_Variables_hdiyue.jpg)
+![Gallery](https://res.cloudinary.com/saaec/image/upload/v1609861188/gallery_lhzaoy.jpg)
 
 ## Functionality
-Inputs
-* Frame spacing - slider
-* Blur - slider
-* Border color - color picker
-
-## Notes
-* Optimization
-    
-    Wes Bos purposes these code to trigger the function that modifies the attributes previously mentioned:
-
-    ```javascript
-    inputs.forEach(input => input.addEventListener('change', handleUpdate));
-    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
-    ```
-    As can be seen, with 'change' and 'mousemove', the action is triggered in two moments, however, we can make it efficient if we directly use the 'input' option, it will perform the same actions and in a single line of code.
-
-    ```javascript
-    inputs.forEach(input => input.addEventListener('input', handleUpdate));
-    ```
+* Click on each section and see :two_hearts:
+![Gallery Action](https://res.cloudinary.com/saaec/image/upload/v1609861188/gallery-action_u1h32l.jpg)
 
 ## Learn more
-* [Using CSS custom properties](https://developer.mozilla.org/es/docs/Web/CSS/Using_CSS_custom_properties) from MDN web docs *Mozilla*
-* [HTMLElement.dataset](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/dataset) from MDN web docs *Mozilla*
+* [Basic concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) from MDN web docs *Mozilla*
 
 ## Credits
 Forked from Wes Bos ([wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)) repository.
