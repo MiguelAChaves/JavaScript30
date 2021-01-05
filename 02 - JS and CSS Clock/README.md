@@ -1,5 +1,4 @@
-
-# 01 - JS and CSS Clock
+# 02 - JS and CSS Clock
 ## Introduction
 This application simulates a ordinary clock with hands.
 

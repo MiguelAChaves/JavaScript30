@@ -1,5 +1,5 @@
 
-# 01 - Array Cardio Day 1
+# 04 - Array Cardio Day 1
 ## Introduction
 A series of excersises with Arrays.
 

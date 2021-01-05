@@ -1,4 +1,4 @@
-# 03 - CSS Variables
+# 05 - Flex Panel Gallery
 ## Introduction
 This application modifies spacing, blur and border color of a :framed_picture:
 
@@ -32,4 +32,3 @@ Inputs
 ## Credits
 Forked from Wes Bos ([wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)) repository.
 > Reviewed and recoded by Miguel Angel Chaves :shipit: (*@miguelachaves*)
-
