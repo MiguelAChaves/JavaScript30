@@ -1,6 +1,6 @@
 # 08 - Fun with HTML5 Canvas
 ## Introduction
-This application shows a series of images and beautiful phrases :).
+This application simulates a canvas :).
 
 ![Gallery](https://res.cloudinary.com/saaec/image/upload/v1610034572/canvas_n2hur7.jpg)
 
