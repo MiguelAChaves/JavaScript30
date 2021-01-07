@@ -1,7 +1,7 @@
 
 # 04 - Array Cardio Day 1
 ## Introduction
-A series of excersises with Arrays.
+A series of exercises with Arrays.
 
 ## Learn more
 * [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) from MDN web docs *Mozilla*
