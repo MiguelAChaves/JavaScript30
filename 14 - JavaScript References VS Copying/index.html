@@ -8,17 +8,17 @@
 
   <script>
     // start with strings, numbers and booleans
-    // let age = 100;
-    // let age2 = age;
-    // console.log(age, age2);
-    // age = 200;
-    // console.log(age, age2);
+    let age = 100;
+    let age2 = age;
+    console.log(age, age2);
+    age = 200;
+    console.log(age, age2);
 
-    // let name = 'Wes';
-    // let name2 = name;
-    // console.log(name, name2);
-    // name = 'wesley';
-    // console.log(name, name2);
+    let name = 'Wes';
+    let name2 = name;
+    console.log(name, name2);
+    name = 'wesley';
+    console.log(name, name2);
 
     // Let's say we have an array
     const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
@@ -28,10 +28,10 @@
 
     console.log(players, team);
     // You might think we can just do something like this:
-    // team[3] = 'Lux';
+    team[3] = 'Lux';
 
     // however what happens when we update that array?
-
+    console.log(players, team);
     // now here is the problem!
 
     // oh no - we have edited the original array too!
@@ -72,7 +72,7 @@
     console.log(cap2);
 
     // We will hopefully soon see the object ...spread
-    // const cap3 = {...person};
+    const cap3 = {...person};
 
     // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
 
