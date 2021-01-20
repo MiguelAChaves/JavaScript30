@@ -47,8 +47,6 @@ This practices show us how to use reduce properly.
 
 ## Learn more
 * [Date](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date) from MDN Web Docs.
-* [String.prototype.trim()](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/Trim) from MDN Web Docs.
-* [String.prototype.trim()](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/Trim) from MDN Web Docs.
 
 
 ## Credits
