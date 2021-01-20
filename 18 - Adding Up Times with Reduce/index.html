@@ -185,22 +185,31 @@
 
   const timeNodes = Array.from(document.querySelectorAll('[data-time]'));
 
-  const seconds = timeNodes
+  /* const seconds = timeNodes
     .map(node => node.dataset.time)
     .map(timeCode => {
       const [mins, secs] = timeCode.split(':').map(parseFloat);
       return (mins * 60) + secs;
     })
-    .reduce((total, vidSeconds) => total + vidSeconds);
+    .reduce((total, vidSeconds) => total + vidSeconds); */
 
-    let secondsLeft = seconds;
-    const hours = Math.floor(secondsLeft / 3600);
-    secondsLeft = secondsLeft % 3600;
+    const seconds = timeNodes.reduce((total,currValue) => {
+      const [mins, secs] = currValue.dataset.time.split(':');
+      return total + (mins * 60) + (secs * 1);
+    },0);
 
-    const mins = Math.floor(secondsLeft / 60);
-    secondsLeft = secondsLeft % 60;
+    // let secondsLeft = seconds;
+    // console.log(secondsLeft);
+    // const hours = Math.floor(secondsLeft / 3600);
+    // secondsLeft = secondsLeft % 3600;
 
-    console.log(hours, mins, secondsLeft);
+    // const mins = Math.floor(secondsLeft / 60);
+    // secondsLeft = secondsLeft % 60;
+
+    // console.log(hours, mins, secondsLeft);
+
+    const measuredTime = new Date(seconds * 1000);
+    console.log(measuredTime.getUTCHours() , measuredTime.getUTCMinutes() , measuredTime.getUTCSeconds());
 
 </script>
 </body>
